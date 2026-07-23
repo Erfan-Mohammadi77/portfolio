@@ -36,7 +36,7 @@ export default function Home() {
             </div>
           </div>
           <div className="hero-avatar fade-up" style={{ animationDelay: '120ms' }}>
-            <Avatar size={220} />
+            <Avatar size={150} />
           </div>
         </div>
       </section>
