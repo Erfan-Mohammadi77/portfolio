@@ -1,0 +1,116 @@
+export const content = {
+  en: {
+    nav: { about: 'about', skills: 'skills', projects: 'projects', contact: 'contact' },
+    boot: [
+      'initializing environment...',
+      'loading modules [react, three, gsap]...',
+      'compiling developer profile...',
+      'erfan mohammadi — ready.',
+    ],
+    hero: {
+      kicker: 'software engineer — backend leaning full-stack',
+      sub: "I build systems that hold up under real traffic, and interfaces that don't feel like an afterthought. This page is a small proof of both.",
+      scroll: 'scroll',
+    },
+    about: {
+      eyebrow: '// about',
+      title: 'Four years of turning ambiguous requirements into things that ship — and keep running.',
+      items: [
+        { time: '2021 — foundations', title: 'Started on backend systems', body: "Learned the hard way that the interesting bugs live in concurrency, not syntax. Spent a year mostly reading other people's stack traces." },
+        { time: '2022 — 2023 — scale', title: 'Owned services under real load', body: 'Moved from "does it work" to "does it work at 3am when traffic triples." Built the instincts for caching, queues, and graceful degradation.' },
+        { time: '2024 — full-stack', title: 'Started caring about the other side of the API', body: 'Realized a fast endpoint means nothing if the UI consuming it feels cheap. Started treating motion and interaction as part of the engineering.' },
+        { time: 'now', title: 'Building things like this page', body: 'Every animation here has a job: guide attention, signal state, or reward curiosity. Nothing moves just to move.' },
+      ],
+    },
+    skills: {
+      eyebrow: '// skills',
+      title: 'A map, not a list. Click a node to see where it\u2019s actually been used.',
+      hint: 'click a node — connected projects below will light up',
+    },
+    projects: {
+      eyebrow: '// projects',
+      title: 'Three problems worth talking about.',
+      items: [
+        { id: 'p-store', stack: ['react', 'node', 'aws', 'docker'], title: 'Storefront platform', body: 'Rebuilt an e-commerce backend to handle flash-sale traffic without falling over — queued checkout, inventory locks, and a caching layer that actually held.' },
+        { id: 'p-ai', stack: ['python', 'aws', 'docker'], title: 'Recommendation service', body: 'A lightweight inference service that reads user behavior in near real time and reorders content without adding noticeable latency to the page.' },
+        { id: 'p-sec', stack: ['linux', 'git', 'node'], title: 'Auth & access hardening', body: 'Audited and rebuilt an internal auth layer after a near-miss — rotated secrets, added anomaly logging, and closed three privilege-escalation paths.' },
+      ],
+    },
+    contact: {
+      eyebrow: '// contact',
+      title: 'No form. Just say hello.',
+      ready: 'ready. type your message and press enter.',
+      placeholder: 'type a message, then hit enter',
+      sending: 'sending...',
+      sent: 'message ready.',
+      opening: 'opening your email client to finish sending →',
+    },
+    footer: { tagline: 'erfan mohammadi — built from scratch, no template. try the konami code.' },
+    dev: {
+      engaged: 'developer mode engaged. type "help".',
+      help: 'commands: help, projects, skills, contact, whoami, clear',
+      whoami: 'erfan mohammadi — software engineer. backend-leaning, full-stack capable, allergic to templates.',
+      scrollingProjects: 'scrolling to projects...',
+      scrollingSkills: 'scrolling to skills...',
+      scrollingContact: 'scrolling to contact...',
+      notFound: (cmd) => `command not found: ${cmd}`,
+    },
+  },
+  fa: {
+    nav: { about: 'درباره', skills: 'مهارت‌ها', projects: 'پروژه‌ها', contact: 'تماس' },
+    boot: [
+      'در حال آماده‌سازی محیط...',
+      'بارگذاری ماژول‌ها [react, three, gsap]...',
+      'کامپایل کردن پروفایل توسعه‌دهنده...',
+      'عرفان محمدی — آماده.',
+    ],
+    hero: {
+      kicker: 'مهندس نرم‌افزار — بک‌اند با گرایش فول‌استک',
+      sub: 'من سیستم‌هایی می‌سازم که زیر بار واقعی از پا نمی‌افتند، و رابط‌هایی که حس یک کار جانبی را نمی‌دهند. این صفحه اثبات کوچکی از هر دوی این‌هاست.',
+      scroll: 'اسکرول کن',
+    },
+    about: {
+      eyebrow: '// درباره من',
+      title: 'چهار سال تبدیل کردن نیازهای مبهم به چیزهایی که واقعاً منتشر می‌شوند — و سرپا می‌مانند.',
+      items: [
+        { time: '۲۰۲۱ — پایه‌ها', title: 'شروع کار روی سیستم‌های بک‌اند', body: 'به‌سختی یاد گرفتم باگ‌های جالب در همزمانی زندگی می‌کنند، نه در سینتکس. یک سال را بیشتر صرف خواندن Stack Trace دیگران کردم.' },
+        { time: '۲۰۲۲ تا ۲۰۲۳ — مقیاس', title: 'مسئولیت سرویس‌ها زیر بار واقعی', body: 'از «کار می‌کند» رسیدم به «ساعت سه صبح که ترافیک سه‌برابر شد هم کار می‌کند». حس درستی برای کش، صف و افت تدریجی عملکرد پیدا کردم.' },
+        { time: '۲۰۲۴ — فول‌استک', title: 'اهمیت دادن به آن‌طرف API', body: 'فهمیدم یک endpoint سریع هیچ معنایی ندارد اگر رابط کاربری‌ای که از آن استفاده می‌کند حس ارزان بدهد. شروع کردم به دیدن انیمیشن و تعامل به‌عنوان بخشی از مهندسی.' },
+        { time: 'حالا', title: 'ساختن چیزهایی مثل همین صفحه', body: 'هر انیمیشن این‌جا یک وظیفه دارد: هدایت توجه، نشان‌دادن وضعیت، یا پاداش دادن به کنجکاوی. هیچ‌چیز فقط برای حرکت کردن حرکت نمی‌کند.' },
+      ],
+    },
+    skills: {
+      eyebrow: '// مهارت‌ها',
+      title: 'یک نقشه، نه یک لیست. روی هر گره کلیک کن تا ببینی واقعاً کجا استفاده شده.',
+      hint: 'روی یک گره کلیک کن — پروژه‌های مرتبط پایین روشن می‌شوند',
+    },
+    projects: {
+      eyebrow: '// پروژه‌ها',
+      title: 'سه مسئله که ارزش گفتن دارند.',
+      items: [
+        { id: 'p-store', stack: ['react', 'node', 'aws', 'docker'], title: 'پلتفرم فروشگاهی', body: 'بازسازی بک‌اند یک فروشگاه آنلاین برای تحمل ترافیک فروش‌های ویژه بدون از پا افتادن — checkout صف‌بندی‌شده، قفل موجودی، و یک لایه کش که واقعاً دوام آورد.' },
+        { id: 'p-ai', stack: ['python', 'aws', 'docker'], title: 'سرویس پیشنهاددهنده', body: 'یک سرویس inference سبک که رفتار کاربر را تقریباً بلادرنگ می‌خواند و محتوا را بدون تأخیر محسوس در صفحه بازچینی می‌کند.' },
+        { id: 'p-sec', stack: ['linux', 'git', 'node'], title: 'تقویت احراز هویت و دسترسی', body: 'پس از یک نزدیک‌شدن به حادثه، لایه احراز هویت داخلی را بررسی و بازسازی کردم — چرخش کلیدهای امنیتی، لاگ‌گیری ناهنجاری، و بستن سه مسیر افزایش دسترسی.' },
+      ],
+    },
+    contact: {
+      eyebrow: '// تماس',
+      title: 'فرمی در کار نیست. فقط سلام کن.',
+      ready: 'آماده است. پیامت را تایپ کن و اینتر بزن.',
+      placeholder: 'یک پیام بنویس و اینتر بزن',
+      sending: 'در حال ارسال...',
+      sent: 'پیام آماده شد.',
+      opening: 'در حال باز کردن ایمیل برای تکمیل ارسال →',
+    },
+    footer: { tagline: 'عرفان محمدی — از صفر ساخته شده، بدون قالب آماده. کد Konami را امتحان کن.' },
+    dev: {
+      engaged: 'حالت توسعه‌دهنده فعال شد. بنویس «help».',
+      help: 'دستورها: help, projects, skills, contact, whoami, clear',
+      whoami: 'عرفان محمدی — مهندس نرم‌افزار. گرایش بک‌اند، توانایی فول‌استک، حساسیت به قالب‌های آماده.',
+      scrollingProjects: 'در حال رفتن به پروژه‌ها...',
+      scrollingSkills: 'در حال رفتن به مهارت‌ها...',
+      scrollingContact: 'در حال رفتن به تماس...',
+      notFound: (cmd) => `دستور پیدا نشد: ${cmd}`,
+    },
+  },
+};
