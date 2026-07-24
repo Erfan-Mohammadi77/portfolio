@@ -1,6 +1,7 @@
 export const translations = {
   fa: {
     dir: 'rtl',
+
     nav: {
       home: 'خانه',
       about: 'درباره من',
@@ -9,111 +10,162 @@ export const translations = {
       tutorials: 'آموزش‌ها',
       contact: 'تماس با من',
     },
+
     hero: {
-      eyebrow: '// در دسترس برای همکاری',
+      eyebrow: 'در دسترس برای همکاری',
       name: 'عرفان محمدی',
-      role: 'توسعه‌دهنده نرم‌افزار',
-      tagline: 'می‌سازم، مستند می‌کنم، و یاد می‌دم — از سیستم‌های سفارشی کسب‌وکار تا آموزش برنامه‌نویسی.',
-      cta1: 'دیدن نمونه‌کارها',
+      role: 'مهندس نرم‌افزار',
+      tagline:
+        'طراحی و توسعه نرم‌افزارهای تحت وب، سیستم‌های اختصاصی و راهکارهای نرم‌افزاری با تمرکز بر کیفیت، کارایی و نگهداشت‌پذیری.',
+      cta1: 'مشاهده نمونه‌کارها',
       cta2: 'تماس با من',
     },
+
     marquee: {
-      items: ['React.js', 'Python', 'Django', 'هوش مصنوعی', 'طراحی وب مدرن', 'در دسترس برای همکاری'],
-    },    
+      items: [
+        'React',
+        'TypeScript',
+        'Python',
+        'Django',
+        'PostgreSQL',
+        'Docker',
+        'REST API',
+        'Git',
+      ],
+    },
+
     intro: {
-      tag: '// معرفی',
-      title: 'یه نگاه کلی',
-      body: 'توسعه‌دهنده نرم‌افزار با بیش از ۶ سال تجربه در طراحی و ساخت راهکارهای مدرن وب، اتوماسیون و هوش مصنوعی — با تمرکز بر کیفیت فنی، عملکرد و تجربه‌ی کاربری.',
-      cta: 'بیشتر درباره‌ی من',
+      tag: 'معرفی',
+      title: 'نگاهی کوتاه',
+      body:
+        'در زمینه طراحی و توسعه نرم‌افزارهای تحت وب، سیستم‌های اختصاصی و راهکارهای نرم‌افزاری فعالیت می‌کنم. هدف من ارائه محصولاتی است که علاوه بر پاسخ‌گویی به نیازهای کسب‌وکار، از نظر کیفیت فنی، عملکرد و قابلیت نگهداری نیز در سطح مطلوبی قرار داشته باشند.',
+      cta: 'بیشتر درباره من',
     },
+
     stats: {
-      tag: '// آمار',
+      tag: 'آمار',
       title: 'در یک نگاه',
-      emptyTitle: 'آماره‌ها به‌زودی',
-      emptyBody: 'تعداد پروژه‌ها، سال‌های تجربه و بقیه‌ی آمار به‌زودی اینجا میان.',
+      emptyTitle: 'در حال تکمیل',
+      emptyBody:
+        'اطلاعات مربوط به پروژه‌ها، تجربه و فعالیت‌های حرفه‌ای به‌زودی در این بخش منتشر خواهد شد.',
     },
+
     stack: {
-      tag: '// ابزارها',
-      title: 'تکنولوژی‌ها و ابزارها',
-      emptyTitle: 'لیست به‌زودی',
-      emptyBody: 'تکنولوژی‌ها و ابزارهایی که باهاشون کار می‌کنم به‌زودی اینجا لیست می‌شن.',
+      tag: 'فناوری‌ها',
+      title: 'ابزارها و فناوری‌ها',
+      emptyTitle: 'در حال تکمیل',
+      emptyBody:
+        'فهرست فناوری‌ها و ابزارهایی که در پروژه‌ها استفاده می‌کنم به‌زودی تکمیل خواهد شد.',
     },
+
     testimonials: {
-      tag: '// نظرات',
-      title: 'نظر مشتری‌ها',
-      emptyTitle: 'هنوز نظری ثبت نشده',
-      emptyBody: 'نظرات مشتری‌ها و همکارها به‌زودی اینجا اضافه می‌شن.',
+      tag: 'همکاری‌ها',
+      title: 'دیدگاه همکاران و مشتریان',
+      emptyTitle: 'هنوز دیدگاهی ثبت نشده است',
+      emptyBody:
+        'پس از تکمیل پروژه‌ها، دیدگاه مشتریان و همکاران در این بخش منتشر خواهد شد.',
     },
+
     about: {
       title: 'درباره من',
-      body: 'من توسعه‌دهنده نرم‌افزار با تمرکز بر طراحی و پیاده‌سازی راهکارهای مدرن وب، اتوماسیون و هوش مصنوعی هستم. تمرکز من روی ساخت محصولاتی است که علاوه بر کیفیت فنی، از نظر عملکرد، مقیاس‌پذیری و تجربه‌ی کاربری نیز استاندارد بالایی داشته باشند.\n\nدر پروژه‌ها به معماری نرم‌افزار، کدنویسی تمیز، امنیت، بهینه‌سازی و نگهداری بلندمدت اهمیت می‌دهم و همواره تلاش می‌کنم راهکارهایی ارائه دهم که نیاز واقعی کسب‌وکار را برطرف کنند.\n\nیادگیری مداوم، استفاده از فناوری‌های روز و حل مسائل پیچیده، بخش جدایی‌ناپذیر مسیر حرفه‌ای من است.',
+      body:
+        'من مهندس نرم‌افزار هستم و در زمینه طراحی، توسعه و پیاده‌سازی سامانه‌های تحت وب، نرم‌افزارهای اختصاصی و راهکارهای اتوماسیون فعالیت می‌کنم.\n\nدر اجرای پروژه‌ها به معماری نرم‌افزار، کیفیت پیاده‌سازی، امنیت، مستندسازی و نگهداشت‌پذیری توجه ویژه‌ای دارم تا محصول نهایی علاوه بر پاسخ‌گویی به نیازهای فعلی، قابلیت توسعه و پشتیبانی در آینده را نیز حفظ کند.\n\nعلاقه‌مند به یادگیری مستمر، استفاده از فناوری‌های روز و به اشتراک‌گذاری دانش از طریق آموزش و تولید محتوای فنی هستم.',
     },
+
     projects: {
       title: 'نمونه‌کارها',
-      subtitle: 'پروژه‌هایی که ساختم یا در حال ساختشون هستم.',
-      emptyTitle: 'هنوز چیزی اینجا نیست',
-      emptyBody: 'نمونه‌کارها به‌زودی اضافه می‌شن.',
+      subtitle:
+        'منتخبی از پروژه‌های اجراشده و پروژه‌های در حال توسعه.',
+      emptyTitle: 'نمونه‌کاری ثبت نشده است',
+      emptyBody:
+        'نمونه‌کارها به‌زودی در این بخش منتشر خواهند شد.',
     },
+
     skills: {
       title: 'مهارت‌ها',
-      subtitle: 'تکنولوژی‌ها و حوزه‌هایی که باهاشون کار می‌کنم.',
+      subtitle:
+        'فناوری‌ها، ابزارها و حوزه‌های تخصصی فعالیت.',
       emptyTitle: 'در حال تکمیل',
-      emptyBody: 'لیست مهارت‌ها به‌زودی اینجا قرار می‌گیره.',
-      categories: {
+      emptyBody:
+        'فهرست کامل مهارت‌ها به‌زودی منتشر خواهد شد.',
+            categories: {
         frontend: {
-          title: 'فرانت‌اند',
-          description: 'ساخت رابط‌های کاربری واکنش‌گرا و تعاملی با تکنولوژی‌های مدرن وب.',
+          title: 'توسعه فرانت‌اند',
+          description:
+            'طراحی و توسعه رابط‌های کاربری مدرن، واکنش‌گرا و بهینه.',
         },
+
         backend: {
-          title: 'بک‌اند',
-          description: 'ساخت APIهای مقیاس‌پذیر و منطق کسب‌وکار با Python و Django.',
+          title: 'توسعه بک‌اند',
+          description:
+            'پیاده‌سازی APIها، منطق کسب‌وکار و سرویس‌های سمت سرور.',
         },
+
         database: {
-          title: 'پایگاه‌داده و مدیریت داده',
-          description: 'طراحی و بهینه‌سازی پایگاه‌داده برای عملکرد و مقیاس‌پذیری بالا.',
+          title: 'پایگاه داده',
+          description:
+            'طراحی، مدل‌سازی و بهینه‌سازی پایگاه‌های داده.',
         },
+
         ai: {
           title: 'هوش مصنوعی و اتوماسیون',
-          description: 'یکپارچه‌سازی هوش مصنوعی و اتوماسیون فرآیندها در محصولات نرم‌افزاری.',
+          description:
+            'یکپارچه‌سازی سرویس‌های هوش مصنوعی و خودکارسازی فرایندها.',
         },
+
         enterprise: {
-          title: 'نرم‌افزار دسکتاپ و سازمانی',
-          description: 'تجربه‌ی ساخت نرم‌افزارهای سازمانی و سیستم‌های گزارش‌گیری داخلی.',
+          title: 'نرم‌افزارهای سازمانی',
+          description:
+            'طراحی و توسعه سامانه‌های اختصاصی و راهکارهای نرم‌افزاری سازمانی.',
         },
+
         tools: {
-          title: 'ابزارها و محیط توسعه',
-          description: 'ابزارها و محیط‌هایی که روزانه برای توسعه و همکاری استفاده می‌کنم.',
+          title: 'ابزارهای توسعه',
+          description:
+            'ابزارها و محیط‌های مورد استفاده در فرایند توسعه نرم‌افزار.',
         },
+
         engineering: {
           title: 'مهندسی نرم‌افزار',
-          description: 'اصول و رویه‌هایی که پایه‌ی نوشتن کد تمیز و قابل‌نگهداری‌ان.',
+          description:
+            'معماری نرم‌افزار، کدنویسی تمیز، تست و نگهداشت سیستم‌ها.',
         },
       },
     },
+
     tutorials: {
       title: 'آموزش‌ها',
-      subtitle: 'یادداشت و آموزش‌هایی که می‌نویسم.',
-      emptyTitle: 'اولین آموزش در راهه',
-      emptyBody: 'به‌زودی مطالب آموزشی اینجا منتشر می‌شن.',
+      subtitle:
+        'آموزش‌ها، یادداشت‌های فنی و تجربیات توسعه نرم‌افزار.',
+      emptyTitle: 'مطالب آموزشی در حال آماده‌سازی است',
+      emptyBody:
+        'مطالب آموزشی به‌زودی در این بخش منتشر خواهند شد.',
     },
+
     contact: {
       title: 'تماس با من',
-      body: 'اگه پروژه‌ای داری یا می‌خوای صحبت کنیم، پیام بده.',
+      body:
+        'برای همکاری، اجرای پروژه یا هرگونه پرسش، از طریق راه‌های ارتباطی زیر با من در تماس باشید.',
       emailLabel: 'ایمیل',
-      formNote: 'فرم تماس به‌زودی فعال می‌شه — فعلاً از راه‌های زیر در دسترسم.',
+      formNote:
+        'فرم تماس در حال آماده‌سازی است. تا آن زمان می‌توانید از راه‌های ارتباطی زیر استفاده کنید.',
     },
+
     footer: {
-      rights: 'تمام حقوق محفوظ است.',
+      rights: '© تمامی حقوق این وب‌سایت محفوظ است.',
     },
+
     notFound: {
-      title: 'صفحه پیدا نشد',
-      body: 'صفحه‌ای که دنبالش بودی وجود نداره.',
-      back: 'بازگشت به خانه',
+      title: 'صفحه موردنظر یافت نشد',
+      body:
+        'ممکن است صفحه حذف شده باشد یا آدرس واردشده صحیح نباشد.',
+      back: 'بازگشت به صفحه اصلی',
     },
   },
 
   en: {
     dir: 'ltr',
+
     nav: {
       home: 'Home',
       about: 'About',
@@ -122,219 +174,320 @@ export const translations = {
       tutorials: 'Tutorials',
       contact: 'Contact',
     },
+
     hero: {
-      eyebrow: '// available for work',
+      eyebrow: 'Available for collaboration',
       name: 'Erfan Mohammadi',
-      role: 'Software Developer',
-      tagline: 'I build, document, and teach — from custom business systems to programming tutorials.',
-      cta1: 'View projects',
-      cta2: 'Get in touch',
+      role: 'Software Engineer',
+      tagline:
+        'Designing and building web applications, custom software, and automation solutions with a focus on quality, performance, and maintainability.',
+      cta1: 'View Projects',
+      cta2: 'Contact Me',
     },
+
     marquee: {
-      items: ['React.js', 'Python', 'Django', 'AI & Automation', 'Modern Web', 'Available for work'],
+      items: [
+        'React',
+        'TypeScript',
+        'Python',
+        'Django',
+        'PostgreSQL',
+        'Docker',
+        'REST API',
+        'Git',
+      ],
     },
+
     intro: {
-      tag: '// intro',
-      title: 'A quick overview',
-      body: 'Software developer with 6+ years of experience building modern web solutions, automation, and AI-driven systems — focused on technical quality, performance, and user experience.',
-      cta: 'More about me',
+      tag: 'Introduction',
+      title: 'A Brief Introduction',
+      body:
+        'I design and develop web applications, custom software, and business solutions with an emphasis on clean architecture, reliability, and long-term maintainability.',
+      cta: 'Learn More',
     },
+
     stats: {
-      tag: '// stats',
-      title: 'At a glance',
-      emptyTitle: 'Numbers coming soon',
-      emptyBody: 'Project count, years of experience, and more will show up here soon.',
+      tag: 'Overview',
+      title: 'At a Glance',
+      emptyTitle: 'Coming Soon',
+      emptyBody:
+        'Professional statistics and project highlights will be published here soon.',
     },
+
     stack: {
-      tag: '// tools',
-      title: 'Tech & tools',
-      emptyTitle: 'List coming soon',
-      emptyBody: 'The tools and technologies I work with will be listed here soon.',
+      tag: 'Technology',
+      title: 'Technologies & Tools',
+      emptyTitle: 'Coming Soon',
+      emptyBody:
+        'The technologies and tools I use in my projects will be listed here soon.',
     },
-    testimonials: {
-      tag: '// testimonials',
-      title: 'What people say',
-      emptyTitle: 'No testimonials yet',
-      emptyBody: 'Client and colleague testimonials will be added here soon.',
+        testimonials: {
+      tag: 'Collaboration',
+      title: 'Client & Colleague Feedback',
+      emptyTitle: 'No testimonials available',
+      emptyBody:
+        'Feedback from clients and collaborators will be published here soon.',
     },
+
     about: {
       title: 'About',
-      body: "I'm a software developer focused on designing and building modern web solutions, automation, and AI-driven systems. My goal is to create products that meet a high standard not only in technical quality, but in performance, scalability, and user experience.\n\nI care deeply about software architecture, clean code, security, optimization, and long-term maintainability — and I always aim to deliver solutions that solve real business problems.\n\nContinuous learning, staying current with new technologies, and solving complex problems are an inseparable part of my professional path.",
+      body:
+        'I am a Software Engineer specializing in the design and development of web applications, custom software, and automation solutions.\n\nMy work focuses on software architecture, code quality, security, documentation, and long-term maintainability to ensure every project remains reliable and scalable as it evolves.\n\nI enjoy solving real-world problems through technology, continuously learning new tools, and sharing knowledge through technical writing and education.',
     },
+
     projects: {
       title: 'Projects',
-      subtitle: 'Things I have built or am currently building.',
-      emptyTitle: 'Nothing here yet',
-      emptyBody: 'Projects will be added soon.',
+      subtitle:
+        'A selection of completed projects and ongoing work.',
+      emptyTitle: 'No projects available',
+      emptyBody:
+        'Projects will be published here soon.',
     },
+
     skills: {
       title: 'Skills',
-      subtitle: 'Technologies and areas I work with.',
-      emptyTitle: 'Work in progress',
-      emptyBody: 'A full skills list will be added here soon.',
+      subtitle:
+        'Technologies, tools, and areas of expertise.',
+      emptyTitle: 'Coming Soon',
+      emptyBody:
+        'A complete overview of my technical skills will be available soon.',
+
       categories: {
         frontend: {
-          title: 'Frontend',
-          description: 'Creating responsive and interactive user interfaces with modern web technologies.',
+          title: 'Frontend Development',
+          description:
+            'Building responsive, accessible, and modern user interfaces.',
         },
+
         backend: {
-          title: 'Backend',
-          description: 'Building scalable APIs and business logic with Python and Django.',
+          title: 'Backend Development',
+          description:
+            'Developing APIs, business logic, and server-side applications.',
         },
+
         database: {
-          title: 'Database & Data Management',
-          description: 'Designing and optimizing databases for performance and scale.',
+          title: 'Database Systems',
+          description:
+            'Designing and optimizing relational database solutions.',
         },
+
         ai: {
           title: 'AI & Automation',
-          description: 'Integrating AI and process automation into software products.',
+          description:
+            'Integrating AI services and automating business workflows.',
         },
+
         enterprise: {
-          title: 'Desktop & Enterprise Software',
-          description: 'Experience building enterprise applications and internal reporting systems.',
+          title: 'Enterprise Software',
+          description:
+            'Developing custom business applications and internal systems.',
         },
+
         tools: {
-          title: 'Tools & Environment',
-          description: 'The tools and environments I use daily for development and collaboration.',
+          title: 'Development Tools',
+          description:
+            'Tools and environments I use throughout the development lifecycle.',
         },
+
         engineering: {
           title: 'Software Engineering',
-          description: 'The principles and practices behind clean, maintainable code.',
+          description:
+            'Architecture, clean code, testing, and software maintenance.',
         },
       },
     },
+
     tutorials: {
       title: 'Tutorials',
-      subtitle: 'Notes and write-ups I put together.',
-      emptyTitle: 'First tutorial coming soon',
-      emptyBody: 'Written tutorials will be published here soon.',
+      subtitle:
+        'Technical articles, tutorials, and development insights.',
+      emptyTitle: 'Content Coming Soon',
+      emptyBody:
+        'Technical articles and tutorials will be published here soon.',
     },
+
     contact: {
       title: 'Contact',
-      body: "Have a project in mind, or just want to say hi? Reach out.",
+      body:
+        'If you would like to collaborate, discuss a project, or simply get in touch, feel free to contact me.',
       emailLabel: 'Email',
-      formNote: 'A contact form is coming soon — for now, reach me through the links below.',
+      formNote:
+        'The contact form is under development. Until then, you can reach me using the contact methods below.',
     },
+
     footer: {
-      rights: 'All rights reserved.',
+      rights: '© All rights reserved.',
     },
+
     notFound: {
-      title: 'Page not found',
-      body: "The page you're looking for doesn't exist.",
-      back: 'Back to home',
+      title: 'Page Not Found',
+      body:
+        'The page you are looking for could not be found or may have been moved.',
+      back: 'Back to Home',
     },
   },
 
   de: {
     dir: 'ltr',
+
     nav: {
-      home: 'Start',
+      home: 'Startseite',
       about: 'Über mich',
       projects: 'Projekte',
       skills: 'Fähigkeiten',
       tutorials: 'Tutorials',
       contact: 'Kontakt',
     },
+
     hero: {
-      eyebrow: '// verfügbar für Projekte',
+      eyebrow: 'Verfügbar für Zusammenarbeit',
       name: 'Erfan Mohammadi',
-      role: 'Softwareentwickler',
-      tagline: 'Ich entwickle, dokumentiere und unterrichte — von individuellen Business-Systemen bis zu Programmier-Tutorials.',
+      role: 'Software Engineer',
+      tagline:
+        'Entwicklung moderner Webanwendungen, individueller Softwaresysteme und Automatisierungslösungen mit Fokus auf Qualität, Leistung und Wartbarkeit.',
       cta1: 'Projekte ansehen',
       cta2: 'Kontakt aufnehmen',
     },
+
     marquee: {
-      items: ['React.js', 'Python', 'Django', 'KI & Automatisierung', 'Modernes Web', 'Verfügbar für Projekte'],
+      items: [
+        'React',
+        'TypeScript',
+        'Python',
+        'Django',
+        'PostgreSQL',
+        'Docker',
+        'REST API',
+        'Git',
+      ],
     },
+
     intro: {
-      tag: '// vorstellung',
-      title: 'Ein kurzer Überblick',
-      body: 'Softwareentwickler mit über 6 Jahren Erfahrung in der Entwicklung moderner Weblösungen, Automatisierung und KI-gestützter Systeme — mit Fokus auf technische Qualität, Performance und Nutzererfahrung.',
-      cta: 'Mehr über mich',
+      tag: 'Einführung',
+      title: 'Kurz vorgestellt',
+      body:
+        'Ich entwickle Webanwendungen, individuelle Softwaresysteme und digitale Lösungen mit Schwerpunkt auf sauberer Architektur, Zuverlässigkeit und langfristiger Wartbarkeit.',
+      cta: 'Mehr erfahren',
     },
-    stats: {
-      tag: '// statistik',
+        stats: {
+      tag: 'Überblick',
       title: 'Auf einen Blick',
-      emptyTitle: 'Zahlen folgen bald',
-      emptyBody: 'Projektanzahl, Erfahrungsjahre und mehr folgen bald.',
+      emptyTitle: 'Demnächst verfügbar',
+      emptyBody:
+        'Informationen zu Projekten, Erfahrungen und weiteren beruflichen Aktivitäten werden hier in Kürze veröffentlicht.',
     },
+
     stack: {
-      tag: '// werkzeuge',
-      title: 'Technologien & Tools',
-      emptyTitle: 'Liste folgt bald',
-      emptyBody: 'Die Technologien und Tools, mit denen ich arbeite, folgen bald.',
+      tag: 'Technologien',
+      title: 'Technologien & Werkzeuge',
+      emptyTitle: 'Demnächst verfügbar',
+      emptyBody:
+        'Die Technologien und Werkzeuge, die ich in meinen Projekten verwende, werden hier bald aufgeführt.',
     },
+
     testimonials: {
-      tag: '// stimmen',
-      title: 'Was andere sagen',
-      emptyTitle: 'Noch keine Stimmen',
-      emptyBody: 'Kunden- und Kollegenstimmen folgen bald.',
+      tag: 'Zusammenarbeit',
+      title: 'Kunden- & Kollegenstimmen',
+      emptyTitle: 'Noch keine Bewertungen',
+      emptyBody:
+        'Rückmeldungen von Kunden und Kollegen werden nach Abschluss weiterer Projekte veröffentlicht.',
     },
+
     about: {
       title: 'Über mich',
-      body: 'Ich bin Softwareentwickler mit Fokus auf die Konzeption und Umsetzung moderner Weblösungen, Automatisierung und KI-gestützter Systeme. Mein Ziel ist es, Produkte zu entwickeln, die nicht nur technisch hochwertig sind, sondern auch bei Performance, Skalierbarkeit und Nutzererfahrung höchsten Ansprüchen genügen.\n\nSoftwarearchitektur, sauberer Code, Sicherheit, Optimierung und langfristige Wartbarkeit sind mir in jedem Projekt wichtig — stets mit dem Ziel, Lösungen zu liefern, die echte geschäftliche Anforderungen erfüllen.\n\nKontinuierliches Lernen, der Einsatz aktueller Technologien und das Lösen komplexer Probleme sind fester Bestandteil meines beruflichen Wegs.',
+      body:
+        'Ich bin Software Engineer mit Schwerpunkt auf der Entwicklung moderner Webanwendungen, individueller Softwaresysteme und Automatisierungslösungen.\n\nBei jedem Projekt lege ich besonderen Wert auf Softwarearchitektur, Codequalität, Sicherheit, Dokumentation und langfristige Wartbarkeit, damit Anwendungen auch in Zukunft zuverlässig erweitert und gepflegt werden können.\n\nKontinuierliches Lernen, der Einsatz moderner Technologien und der Austausch von Wissen durch technische Inhalte und Schulungen sind ein wesentlicher Bestandteil meiner beruflichen Arbeit.',
     },
+
     projects: {
       title: 'Projekte',
-      subtitle: 'Dinge, die ich gebaut habe oder gerade baue.',
-      emptyTitle: 'Hier ist noch nichts',
-      emptyBody: 'Projekte werden bald hinzugefügt.',
+      subtitle:
+        'Eine Auswahl abgeschlossener und laufender Projekte.',
+      emptyTitle: 'Keine Projekte verfügbar',
+      emptyBody:
+        'Neue Projekte werden in Kürze veröffentlicht.',
     },
+
     skills: {
       title: 'Fähigkeiten',
-      subtitle: 'Technologien und Bereiche, mit denen ich arbeite.',
-      emptyTitle: 'In Arbeit',
-      emptyBody: 'Eine vollständige Liste folgt in Kürze.',
+      subtitle:
+        'Technologien, Werkzeuge und fachliche Schwerpunkte.',
+      emptyTitle: 'Demnächst verfügbar',
+      emptyBody:
+        'Eine vollständige Übersicht meiner technischen Fähigkeiten wird bald ergänzt.',
+
       categories: {
         frontend: {
-          title: 'Frontend',
-          description: 'Erstellung responsiver und interaktiver Benutzeroberflächen mit modernen Webtechnologien.',
+          title: 'Frontend-Entwicklung',
+          description:
+            'Entwicklung moderner, responsiver und benutzerfreundlicher Oberflächen.',
         },
+
         backend: {
-          title: 'Backend',
-          description: 'Entwicklung skalierbarer APIs und Geschäftslogik mit Python und Django.',
+          title: 'Backend-Entwicklung',
+          description:
+            'Entwicklung von APIs, Geschäftslogik und serverseitigen Anwendungen.',
         },
+
         database: {
-          title: 'Datenbanken & Datenmanagement',
-          description: 'Entwurf und Optimierung von Datenbanken für Performance und Skalierbarkeit.',
+          title: 'Datenbanksysteme',
+          description:
+            'Entwurf und Optimierung relationaler Datenbanken.',
         },
+
         ai: {
           title: 'KI & Automatisierung',
-          description: 'Integration von KI und Prozessautomatisierung in Softwareprodukte.',
+          description:
+            'Integration von KI-Diensten und Automatisierung von Geschäftsprozessen.',
         },
+
         enterprise: {
-          title: 'Desktop- & Unternehmenssoftware',
-          description: 'Erfahrung in der Entwicklung von Unternehmensanwendungen und internen Reporting-Systemen.',
+          title: 'Unternehmenssoftware',
+          description:
+            'Entwicklung individueller Unternehmensanwendungen und interner Systeme.',
         },
+
         tools: {
-          title: 'Tools & Umgebung',
-          description: 'Die Tools und Umgebungen, die ich täglich für Entwicklung und Zusammenarbeit nutze.',
+          title: 'Entwicklungswerkzeuge',
+          description:
+            'Werkzeuge und Entwicklungsumgebungen für den gesamten Softwareentwicklungsprozess.',
         },
+
         engineering: {
-          title: 'Softwareentwicklung',
-          description: 'Die Prinzipien und Praktiken hinter sauberem, wartbarem Code.',
+          title: 'Software Engineering',
+          description:
+            'Softwarearchitektur, Clean Code, Tests und langfristige Wartbarkeit.',
         },
       },
     },
+
     tutorials: {
       title: 'Tutorials',
-      subtitle: 'Notizen und Anleitungen, die ich schreibe.',
-      emptyTitle: 'Erstes Tutorial folgt bald',
-      emptyBody: 'Hier werden bald Tutorials veröffentlicht.',
+      subtitle:
+        'Technische Artikel, Anleitungen und Erfahrungen aus der Softwareentwicklung.',
+      emptyTitle: 'Inhalte folgen in Kürze',
+      emptyBody:
+        'Neue Tutorials und Fachartikel werden hier veröffentlicht.',
     },
+
     contact: {
       title: 'Kontakt',
-      body: 'Ein Projekt im Kopf oder einfach Hallo sagen? Schreib mir.',
+      body:
+        'Wenn Sie an einer Zusammenarbeit interessiert sind, ein Projekt besprechen möchten oder Fragen haben, freue ich mich auf Ihre Nachricht.',
       emailLabel: 'E-Mail',
-      formNote: 'Ein Kontaktformular folgt bald — bis dahin erreichst du mich über die Links unten.',
+      formNote:
+        'Das Kontaktformular befindet sich derzeit in Vorbereitung. Bis dahin erreichen Sie mich über die unten aufgeführten Kontaktmöglichkeiten.',
     },
+
     footer: {
-      rights: 'Alle Rechte vorbehalten.',
+      rights: '© Alle Rechte vorbehalten.',
     },
+
     notFound: {
       title: 'Seite nicht gefunden',
-      body: 'Die gesuchte Seite existiert nicht.',
-      back: 'Zurück zur Startseite',
+      body:
+        'Die angeforderte Seite konnte nicht gefunden werden oder wurde möglicherweise verschoben.',
+      back: 'Zur Startseite',
     },
   },
 }
