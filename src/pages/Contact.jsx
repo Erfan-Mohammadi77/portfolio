@@ -1,3 +1,5 @@
+import { useLang } from '../context/LanguageContext.jsx';
+
 const CONTACT_LINKS = [
   {
     label: 'Email',
@@ -19,8 +21,44 @@ const CONTACT_LINKS = [
     href: 'https://erfanmohammadi.ir',
     value: 'erfanmohammadi.ir',
   },
-  {
-    label: 'Location',
-    value: 'Tehran, Iran',
-  },
-]
+];
+
+export default function Contact() {
+  const { t } = useLang();
+
+  return (
+    <section id="contact">
+      <div className="eyebrow">
+        {t.contact.eyebrow}
+      </div>
+
+      <h2 className="section-title">
+        {t.contact.title}
+      </h2>
+
+      <div className="terminal">
+        <div className="tbar">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+
+        <div className="contact-links">
+          {CONTACT_LINKS.map((link) => (
+            <div key={link.label}>
+              <strong>{link.label}: </strong>
+
+              {link.href ? (
+                <a href={link.href} target="_blank" rel="noreferrer">
+                  {link.value}
+                </a>
+              ) : (
+                <span>{link.value}</span>
+              )}
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+}
